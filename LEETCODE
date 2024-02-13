@@ -1,0 +1,416 @@
+    Question1
+Input: nums = [1,2,3,4]
+Output: [1,3,6,10]
+Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4]
+
+class Solution {
+    public int[] runningSum(int[] nums) {
+        int i,Sum=0;
+        int ans[]=new int[nums.length];
+        for(i=0;i<nums.length;i++){
+            Sum=Sum+nums[i];
+            ans[i]=Sum;
+            
+        }return ans;
+    }
+}
+
+
+  Question2
+  Input: nums = [0,2,1,5,3,4]
+Output: [0,1,2,4,5,3]
+Explanation: The array ans is built as follows: 
+ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]], nums[nums[5]]]
+    = [nums[0], nums[2], nums[1], nums[5], nums[3], nums[4]]
+    = [0,1,2,4,5,3]
+    
+  class Solution {
+    public int[] buildArray(int[] nums) {
+        int i;
+        int ans[]=new int[nums.length];
+        for(i=0;i<nums.length;i++){
+            ans[i]=nums[nums[i]];
+        }
+        return ans;
+    }
+}
+
+Question3
+Input: nums = [1,2,1]
+Output: [1,2,1,1,2,1]
+Explanation: The array ans is formed as follows:
+- ans = [nums[0],nums[1],nums[2],nums[0],nums[1],nums[2]]
+- ans = [1,2,1,1,2,1]
+
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int i,n=0;
+        int ans[]=new int[nums.length*2];
+         for(i=0;i<nums.length;i++){
+            ans[i]=nums[i];
+            ans[i+nums.length]=nums[i];
+        }
+        return ans;
+    }
+}
+
+
+Question4
+Input: operations = ["X++","++X","--X","X--"]
+Output: 0
+Explanation: The operations are performed as follows:
+Initially, X = 0.
+X++: X is incremented by 1, X = 0 + 1 = 1.
+++X: X is incremented by 1, X = 1 + 1 = 2.
+--X: X is decremented by 1, X = 2 - 1 = 1.
+X--: X is decremented by 1, X = 1 - 1 = 0
+
+class Solution {
+    public int finalValueAfterOperations(String[] operations) {
+        int x=0,i;
+        for(i=0;i<operations.length;i++){
+            if(operations[i].equalsIgnoreCase("x++")||operations[i].equalsIgnoreCase("++x")){
+                x++;
+            }
+               else if(operations[i].equalsIgnoreCase("x--")||operations[i].equalsIgnoreCase("--x")){
+                --x;
+            }
+        }
+                        return x;
+    }
+}
+
+Question5
+Input: nums1 = [1,2,3], nums2 = [2,4]
+Output: 2
+Explanation: The smallest element common to both arrays is 2, so we return 2.
+
+class Solution {
+    public int getCommon(int[] nums1, int[] nums2) {
+        int m = nums1.length, n = nums2.length;
+        for (int i = 0, j = 0; i < m && j < n;) {
+            if (nums1[i] == nums2[j]) {
+                return nums1[i];
+            }
+            if (nums1[i] < nums2[j]) {
+                i++;
+            } else {
+                j++;
+            }
+        }
+        return -1;
+    }
+}
+
+Question6 binarySearch
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
+Output: true
+
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+       int n=matrix[0].length-1;
+        for(int i=0;i<matrix.length;i++){
+            if (target<=matrix[i][n]){
+                int low=0;
+                int high=n;
+                while(low<=high){
+                    int mid=(low+high)/2;
+                    if(matrix[i][mid]==target){
+                        return true;
+                    }
+                    else if(matrix[i][mid]<target){
+                        low=low+1;
+                    }
+                    else{
+                        high=high-1;
+                    }
+                }
+            }}
+            return false;
+    }
+    }
+
+    Question7
+    Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
+The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
+
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+      int i;
+      for(i=0;i<n;i++){
+          nums1[i+m]=nums2[i];
+      }  
+      Arrays.sort(nums1);
+    }
+}
+
+
+Question8
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) { 
+        for(int i = 0 ; i < nums.length - 1 ; i++)
+            for(int j = i + 1 ; j < nums.length ; j++)
+            {
+                if(nums[i] + nums[j] == target)
+                    return new int[]{i , j};
+            }
+        return new int[]{-1 , -1};
+    } 
+    }
+
+    Question9
+    Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.
+
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int a1=nums1.length;
+        int b1=nums2.length;
+        int c1=a1+b1;
+        double[] c=new double[c1];
+        for(int i=0;i<a1;i++){
+              c[i]=nums1[i];
+        }
+        for(int i=0;i<b1;i++){
+              c[a1+i]=nums2[i];
+        }
+         Arrays.sort(c);
+         if(c1%2==1){
+             return c[(c1+1)/2-1];
+         }
+         else {
+              return (c[(c1)/2-1] +c[c1/2])/2;
+         }  
+    }
+}
+
+
+Question10 binarySearch
+
+Input: x = 8
+Output: 2
+Explanation: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
+
+class Solution {
+    public int mySqrt(int x) {
+        if (x==0)
+        return 0;
+    if (x>0 && x<4)
+        return 1;        
+    int left = 1, right = x/2;
+    while (true) {
+        int mid = (left + right)/2;            
+        if (mid > 0 && mid > x/mid) {
+            right = mid-1;
+        } else if ((mid+1) > x/(mid+1)) {
+            return mid;
+        } else {
+            left = mid+1;
+        }
+    }
+    }
+}
+
+
+Input: x = 2.00000, n = 10
+Output: 1024.00000
+
+class Solution {
+    public double myPow(double x, int n) {
+        if(n==0)
+return 1;
+Double a =myPow(x,n/2);
+//if n is even
+if(n%2==0)
+return a*a;
+
+//if n is negative
+else if(n<0)
+return 1/myPow(x,-n);
+
+//if n is odd
+else
+return a*a*x;
+
+    }
+}
+
+// first unique character
+class Solution {
+    public int firstUniqChar(String s) {
+        int count[] = new int[256]; // Create an array to store character frequencies
+        
+        // Count the frequency of each character in the string
+        for (int i = 0; i < s.length(); i++) {
+            count[s.charAt(i)]++;
+        }
+        
+        // Find the index of the first non-repeating character
+        for (int i = 0; i < s.length(); i++) {
+            if (count[s.charAt(i)] == 1) {
+                return i; // Return the index of the first non-repeating character
+            }
+        }
+        
+        return -1; // Return -1 if no non-repeating character is found
+    }
+}
+
+
+// number of good pair
+// Input: nums = [1,2,3,1,1,3]
+// Output: 4
+// Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
+
+class Solution {
+    public int numIdenticalPairs(int[] nums) {
+//         int n=nums.length;
+//         int c=0;
+//         for(int i=0;i<n-1;i++){
+//             for(int j=i+1;j<n;j++){
+//                  if(nums[i]==nums[j]&&i<j){
+//                       c++;
+// }
+//             }
+//         }
+//          return c;
+HashMap<Integer,Integer>map=new HashMap<>();
+int res=0;
+for(int i=0;i<nums.length;i++){
+    int n=nums[i];
+    if(!map.containsKey(n))
+    map.put(n,1);
+    else{
+     int count=map.get(n);
+    res=res+count;
+    map.put(n,count+1);
+}}
+return res;
+    }
+}
+
+
+
+// suffle the array
+// Input: nums = [2,5,1,3,4,7], n = 3
+// Output: [2,3,5,4,1,7] 
+// Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7].
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+      int res[]=new int[nums.length];
+        for(int i=0;i<n;i++){
+          res[2*i]=nums[i];
+          res[2*i+1]=nums[n+i];
+        }
+        return res;
+    }
+}
+
+
+// maximum-number-of-words-found-in-sentences
+// Input: sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
+// Output: 6
+class Solution {
+    public int mostWordsFound(String[] sentences) {
+        int temp_count=0;
+        int count=0;
+        for(int i=0;i<sentences.length;i++){
+            String s=sentences[i];
+            for(int j=0;j<s.length();j++){
+if(s.charAt(j)==' '){
+    temp_count++;
+}
+            }
+            if(temp_count>count){
+                count=temp_count;
+            }
+            temp_count=0;
+        }
+        return count+1;
+    }
+}
+
+
+// Input: s = "Hello World"
+// Output: 5
+// Explanation: The last word is "World" with length 5.
+class Solution {
+    public int lengthOfLastWord(String s) {
+        int len=0;
+        String x=s.trim();  //remove the white space starting and ending
+        for(int i=0;i<x.length();i++){
+            if(x.charAt(i)==' '){
+                len=0;
+            }else{
+                len++;
+            }
+        }
+        return len;
+    }
+}
+
+Input: word = "aeiouu"
+Output: 2
+Explanation: The vowel substrings of word are as follows (underlined):
+- "aeiouu"
+- "aeiouu"
+int vow=0;
+        Set<Character> set = new HashSet<>();
+        for(int i = 0; i <word.length(); i++)
+        {
+            set.clear();
+            for(int j = i; j < word.length(); j++)
+            {
+                char ch = word.charAt(j);
+                if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+                {
+                    set.add(ch);
+                    if(set.size() == 5)
+                        vow++;
+                }
+                else
+                    break;
+            }
+        }
+        return vow;
+
+        
+
+
+        class Solution {
+            public int arithmeticTriplets(int[] nums, int diff) {
+            //    int c=0;
+            //    for(int i=0;i<nums.length-2;i++){
+            //        for(int j=i+1;j<nums.length-1;j++){
+            //            for(int k=j+1;k<nums.length;k++){
+            //                if(nums[j]-nums[i] == diff && nums[k]-nums[j] == diff){
+            //                    c++;
+            //                }
+            //            }
+            //        }
+            //    }
+            //    return c;
+        
+            // method2
+            Set<Integer> set = new HashSet<>();
+            // for(int i=0;i<nums.length;i++){
+            //     set.add(nums[i]);
+            // }
+            for(int n:nums){
+                set.add(n);
+            }
+            int c = 0;
+            for(int j = 0; j < nums.length; j++){
+                if(set.contains(nums[j] + diff) && set.contains(nums[j] + (2*diff)))
+                c++;
+            }
+            return c;
+            }
+        }

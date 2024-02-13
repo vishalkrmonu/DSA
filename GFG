@@ -1,0 +1,126 @@
+Question1 binarySearch
+Input:
+N = 6, X = 16
+Arr[] = {1, 4, 45, 6, 10, 8}
+Output: Yes
+Explanation: Arr[3] + Arr[4] = 6 + 10 = 16
+
+class Solution {
+    boolean hasArrayTwoCandidates(int arr[], int n, int x) {
+        Arrays.sort(arr);
+        int i=0;
+        int j=n-1;
+        while(i<j){
+            if(arr[i]+arr[j]==x){
+                return true;
+            }
+            else if(arr[i]+arr[j]<x){
+                i++;
+            }
+            else{
+                j--;
+            }}
+            return false;
+    }
+}
+
+Question2 binarySearch
+N = 4
+A[] = {4, 2, 5, 7}
+Output:
+5
+Explanation:
+Elements on left of 5 are smaller than 5
+and on right of it are greater than 5.
+
+class Compute {
+    public int findElement(int arr[], int n){
+        int [] Lmax=new int[n];
+    int [] Rmin=new int[n];
+        Lmax[0]=arr[0];
+        for(int i=1;i<n;i++){
+            Lmax[i]=Math.max(arr[i],Lmax[i-1]);
+        }
+        
+         Rmin[n-1]=arr[n-1];
+        for(int i=n-2;i>=0;i--){
+            Rmin[i]=Math.min(arr[i],Rmin[i+1]);
+        }
+        
+        int ans=-1;
+         for(int i=1;i<n-1;i++){
+             if(arr[i]==Lmax[i]&&arr[i]==Rmin[i]){
+                 return arr[i];
+             }
+         }
+         return ans;
+    }
+}
+
+Question3 binarySearch sorting
+Input: 
+5
+1 0 1 1 0
+
+Output: 
+0 0 1 1 1
+
+Explanation: 
+After arranging the elements in 
+increasing order, elements will be as 
+0 0 1 1 1
+
+class Solution{
+    //Function to sort the binary array.
+    static void binSort(int A[], int N){
+        // add your code here int i=0;
+        int i=0;
+        int j=N-1;
+        while(i<j){
+            if(A[i]==0){
+                i++;
+            }
+            if(A[j]==1){
+                j--;
+            }
+            if(i<j && A[i]==1 && A[j]==0){       
+            int temp=A[i];
+            A[i]=A[j];
+            A[j]=temp;
+            i++;
+            j--;
+            }    
+        }
+
+
+        HashMap<Integer,Integer> m=new HashMap<>();
+for(int i=0;i<n;i++){
+    m.put(arr[i],m.getOrDefault(arr[i],0)+1);  //put the value in map
+}
+for(int i=0;i<n;i++){  //find the frequncy
+    if(m.get(arr[i])>1)
+    return i+1;
+}
+return -1;
+        }
+    }
+
+//two pointer
+    class Solution {
+        boolean hasArrayTwoCandidates(int arr[], int n, int x) {
+            Arrays.sort(arr);
+            int i=0;
+            int j=n-1;
+            while(i<j){
+                if(arr[i]+arr[j]==x){
+                    return true;
+                }
+                else if(arr[i]+arr[j]<x){
+                    i++;
+                }
+                else{
+                    j--;
+                }}
+                return false;
+        }
+    }

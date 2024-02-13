@@ -1,0 +1,759 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Day1",
+      "request": "launch",
+      "mainClass": "Day1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "col2",
+      "request": "launch",
+      "mainClass": "col2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "col1",
+      "request": "launch",
+      "mainClass": "col1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "col",
+      "request": "launch",
+      "mainClass": "col",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "STR",
+      "request": "launch",
+      "mainClass": "STR",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Pulsar",
+      "request": "launch",
+      "mainClass": "Pulsar",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Bank",
+      "request": "launch",
+      "mainClass": "Bank",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Child1",
+      "request": "launch",
+      "mainClass": "Child1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Child",
+      "request": "launch",
+      "mainClass": "Child",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "C1",
+      "request": "launch",
+      "mainClass": "C1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Copy",
+      "request": "launch",
+      "mainClass": "Copy",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "B",
+      "request": "launch",
+      "mainClass": "B",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Student3",
+      "request": "launch",
+      "mainClass": "Student3",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Bike1",
+      "request": "launch",
+      "mainClass": "Bike1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Geeks",
+      "request": "launch",
+      "mainClass": "Geeks",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "kid",
+      "request": "launch",
+      "mainClass": "kid",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "countPairss",
+      "request": "launch",
+      "mainClass": "countPairss",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Solu",
+      "request": "launch",
+      "mainClass": "Solu",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "CircularArrayQueue",
+      "request": "launch",
+      "mainClass": "CircularArrayQueue",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Queues",
+      "request": "launch",
+      "mainClass": "Queues",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "SlidingWindow",
+      "request": "launch",
+      "mainClass": "SlidingWindow",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Method2",
+      "request": "launch",
+      "mainClass": "Method2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Method1",
+      "request": "launch",
+      "mainClass": "Method1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Dequq",
+      "request": "launch",
+      "mainClass": "Dequq",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "m",
+      "request": "launch",
+      "mainClass": "m",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "tut52",
+      "request": "launch",
+      "mainClass": "tut52",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "miann",
+      "request": "launch",
+      "mainClass": "miann",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Mai",
+      "request": "launch",
+      "mainClass": "Mai",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Mainn",
+      "request": "launch",
+      "mainClass": "Mainn",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "MyStack1",
+      "request": "launch",
+      "mainClass": "MyStack1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "MyQueue1",
+      "request": "launch",
+      "mainClass": "MyQueue1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "monu",
+      "request": "launch",
+      "mainClass": "monu",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "MyQueue",
+      "request": "launch",
+      "mainClass": "MyQueue",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "MyStack",
+      "request": "launch",
+      "mainClass": "MyStack",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "queueJava",
+      "request": "launch",
+      "mainClass": "queueJava",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "QueueExample",
+      "request": "launch",
+      "mainClass": "QueueExample",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Queuee",
+      "request": "launch",
+      "mainClass": "Queuee",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "areaSubmatrix",
+      "request": "launch",
+      "mainClass": "areaSubmatrix",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "area",
+      "request": "launch",
+      "mainClass": "area",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "maxarea",
+      "request": "launch",
+      "mainClass": "maxarea",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "paranthesis",
+      "request": "launch",
+      "mainClass": "paranthesis",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "paranthesisMatching",
+      "request": "launch",
+      "mainClass": "paranthesisMatching",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Solution8",
+      "request": "launch",
+      "mainClass": "Solution8",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "nextsmall",
+      "request": "launch",
+      "mainClass": "nextsmall",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "prevSmall",
+      "request": "launch",
+      "mainClass": "prevSmall",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stackLinked",
+      "request": "launch",
+      "mainClass": "stackLinked",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stackArray1",
+      "request": "launch",
+      "mainClass": "stackArray1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stackArray",
+      "request": "launch",
+      "mainClass": "stackArray",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stack1",
+      "request": "launch",
+      "mainClass": "stack1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stackimplemention1",
+      "request": "launch",
+      "mainClass": "stackimplemention1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stackimplemention",
+      "request": "launch",
+      "mainClass": "stackimplemention",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "detect",
+      "request": "launch",
+      "mainClass": "detect",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "PalindromeLinkedList",
+      "request": "launch",
+      "mainClass": "PalindromeLinkedList",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "ReverseLinkedList",
+      "request": "launch",
+      "mainClass": "ReverseLinkedList",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListt",
+      "request": "launch",
+      "mainClass": "LinkedListt",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "reverseLinkedList",
+      "request": "launch",
+      "mainClass": "reverseLinkedList",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "LinkedList2",
+      "request": "launch",
+      "mainClass": "LinkedList2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Main2",
+      "request": "launch",
+      "mainClass": "Main2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "LinkedList",
+      "request": "launch",
+      "mainClass": "LinkedList",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "linked",
+      "request": "launch",
+      "mainClass": "linked",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "medianOfStream",
+      "request": "launch",
+      "mainClass": "medianOfStream",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "ropes",
+      "request": "launch",
+      "mainClass": "ropes",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "small",
+      "request": "launch",
+      "mainClass": "small",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "large",
+      "request": "launch",
+      "mainClass": "large",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "priority1",
+      "request": "launch",
+      "mainClass": "priority1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "priority",
+      "request": "launch",
+      "mainClass": "priority",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Buildheapp",
+      "request": "launch",
+      "mainClass": "Buildheapp",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Build",
+      "request": "launch",
+      "mainClass": "Build",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "BuildHeap2",
+      "request": "launch",
+      "mainClass": "BuildHeap2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "BuildHeap",
+      "request": "launch",
+      "mainClass": "BuildHeap",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Buildheap",
+      "request": "launch",
+      "mainClass": "Buildheap",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "heapy",
+      "request": "launch",
+      "mainClass": "heapy",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "heapi",
+      "request": "launch",
+      "mainClass": "heapi",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "del",
+      "request": "launch",
+      "mainClass": "del",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "tut31",
+      "request": "launch",
+      "mainClass": "tut31",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "heap",
+      "request": "launch",
+      "mainClass": "heap",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "tut28",
+      "request": "launch",
+      "mainClass": "tut28",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "day29",
+      "request": "launch",
+      "mainClass": "day29",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "countt",
+      "request": "launch",
+      "mainClass": "countt",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "hash",
+      "request": "launch",
+      "mainClass": "hash",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "print",
+      "request": "launch",
+      "mainClass": "print",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "intersection",
+      "request": "launch",
+      "mainClass": "intersection",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "union",
+      "request": "launch",
+      "mainClass": "union",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "count",
+      "request": "launch",
+      "mainClass": "count",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "HashSet1",
+      "request": "launch",
+      "mainClass": "HashSet1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "HashMap1",
+      "request": "launch",
+      "mainClass": "HashMap1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Page",
+      "request": "launch",
+      "mainClass": "Page",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "page",
+      "request": "launch",
+      "mainClass": "page",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "RotateSearch",
+      "request": "launch",
+      "mainClass": "RotateSearch",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "infinite",
+      "request": "launch",
+      "mainClass": "infinite",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "binary2",
+      "request": "launch",
+      "mainClass": "binary2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "binary1",
+      "request": "launch",
+      "mainClass": "binary1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "binary",
+      "request": "launch",
+      "mainClass": "binary",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Quick",
+      "request": "launch",
+      "mainClass": "Quick",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "insertion",
+      "request": "launch",
+      "mainClass": "insertion",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "bubblesort",
+      "request": "launch",
+      "mainClass": "bubblesort",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "Rain",
+      "request": "launch",
+      "mainClass": "Rain",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stock2",
+      "request": "launch",
+      "mainClass": "stock2",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "stock1",
+      "request": "launch",
+      "mainClass": "stock1",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "kaden",
+      "request": "launch",
+      "mainClass": "kaden",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "type": "java",
+      "name": "col4",
+      "request": "launch",
+      "mainClass": "col4",
+      "projectName": "DSA_77514479"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/DSA",
+      "program": "d:/DSA/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
